@@ -3,29 +3,8 @@ Implementation-Title: CasGiftRest
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: kira
 Implementation-Vendor-Id: org.rk.cashgift
-Class-Path: lib/spring-boot-starter-web-1.5.8.RELEASE.jar lib/spring-b
- oot-starter-1.5.8.RELEASE.jar lib/spring-boot-1.5.8.RELEASE.jar lib/s
- pring-boot-autoconfigure-1.5.8.RELEASE.jar lib/spring-boot-starter-lo
- gging-1.5.8.RELEASE.jar lib/logback-classic-1.1.11.jar lib/logback-co
- re-1.1.11.jar lib/jcl-over-slf4j-1.7.25.jar lib/jul-to-slf4j-1.7.25.j
- ar lib/log4j-over-slf4j-1.7.25.jar lib/spring-core-4.3.12.RELEASE.jar
-  lib/snakeyaml-1.17.jar lib/spring-boot-starter-tomcat-1.5.8.RELEASE.
- jar lib/tomcat-embed-core-8.5.23.jar lib/tomcat-annotations-api-8.5.2
- 3.jar lib/tomcat-embed-el-8.5.23.jar lib/tomcat-embed-websocket-8.5.2
- 3.jar lib/hibernate-validator-5.3.5.Final.jar lib/validation-api-1.1.
- 0.Final.jar lib/jboss-logging-3.3.1.Final.jar lib/classmate-1.3.4.jar
-  lib/jackson-databind-2.8.10.jar lib/jackson-annotations-2.8.0.jar li
- b/jackson-core-2.8.10.jar lib/spring-web-4.3.12.RELEASE.jar lib/sprin
- g-aop-4.3.12.RELEASE.jar lib/spring-beans-4.3.12.RELEASE.jar lib/spri
- ng-context-4.3.12.RELEASE.jar lib/spring-webmvc-4.3.12.RELEASE.jar li
- b/spring-expression-4.3.12.RELEASE.jar lib/spring-boot-starter-actuat
- or-1.5.8.RELEASE.jar lib/spring-boot-actuator-1.5.8.RELEASE.jar lib/s
- pring-boot-starter-jdbc-1.5.8.RELEASE.jar lib/spring-jdbc-4.3.12.RELE
- ASE.jar lib/spring-tx-4.3.12.RELEASE.jar lib/HikariCP-2.6.0.jar lib/s
- lf4j-api-1.7.25.jar lib/mysql-connector-java-5.1.40.jar
 Build-Jdk: 1.8.0_144
 Implementation-URL: http://projects.spring.io/spring-boot/CasGiftRest/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
-Main-Class: org.rk.cashgift.springboot
 
