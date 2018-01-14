@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: CasGiftRest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kira
+Implementation-Vendor-Id: org.rk.cashgift
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/CasGiftRest/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
