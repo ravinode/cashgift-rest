@@ -5,18 +5,19 @@ import java.sql.Date;
 public class Transaction {
 
     private String id;
-    private String TRANSACTION_USER = "TRANSACTION_USER";
-    private String G_USER_NAME = "G_USER_NAME";
-    private String G_RELATIVE = "G_RELATIVE";
-    private String G_ADDRESS = "G_ADDRESS";
-    private String G_DISTRICT = "G_DISTRICT";
-    private String G_STATE = "G_STATE";
-    private String G_AMOUNT = "G_AMOUNT";
-    private String CREATED_AT = "CREATED_AT";
+    private String TRANSACTION_USER;
+    private String G_USER_NAME ;
+    private String G_RELATIVE;
+    private String G_ADDRESS;
+    private String G_DISTRICT ;
+    private String G_STATE ;
+    private String G_AMOUNT ;
+    private String CREATED_AT;
     
     
 
-    public Transaction(String id, String tRANSACTION_USER, String g_USER_NAME, String g_RELATIVE, String g_ADDRESS,
+ 
+	public Transaction(String id, String tRANSACTION_USER, String g_USER_NAME, String g_RELATIVE, String g_ADDRESS,
 			String g_DISTRICT, String g_STATE, String g_AMOUNT, String cREATED_AT) {
 		super();
 		this.id = id;
@@ -29,20 +30,8 @@ public class Transaction {
 		G_AMOUNT = g_AMOUNT;
 		CREATED_AT = cREATED_AT;
 	}
-    
-    public Transaction(String id, String tRANSACTION_USER, String g_USER_NAME, String g_RELATIVE, String g_ADDRESS,
-			String g_DISTRICT, String g_STATE, String g_AMOUNT) {
-		super();
-		this.id = id;
-		TRANSACTION_USER = tRANSACTION_USER;
-		G_USER_NAME = g_USER_NAME;
-		G_RELATIVE = g_RELATIVE;
-		G_ADDRESS = g_ADDRESS;
-		G_DISTRICT = g_DISTRICT;
-		G_STATE = g_STATE;
-		G_AMOUNT = g_AMOUNT;
-	}
 
+	
 	public Transaction(int int1, String string, String string2, Date date) {
 		// TODO Auto-generated constructor stub
 	}
