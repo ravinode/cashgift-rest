@@ -29,6 +29,19 @@ public class Transaction {
 		G_AMOUNT = g_AMOUNT;
 		CREATED_AT = cREATED_AT;
 	}
+    
+    public Transaction(String id, String tRANSACTION_USER, String g_USER_NAME, String g_RELATIVE, String g_ADDRESS,
+			String g_DISTRICT, String g_STATE, String g_AMOUNT) {
+		super();
+		this.id = id;
+		TRANSACTION_USER = tRANSACTION_USER;
+		G_USER_NAME = g_USER_NAME;
+		G_RELATIVE = g_RELATIVE;
+		G_ADDRESS = g_ADDRESS;
+		G_DISTRICT = g_DISTRICT;
+		G_STATE = g_STATE;
+		G_AMOUNT = g_AMOUNT;
+	}
 
 	public Transaction(int int1, String string, String string2, Date date) {
 		// TODO Auto-generated constructor stub
