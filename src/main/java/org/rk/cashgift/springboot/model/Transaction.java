@@ -17,6 +17,12 @@ public class Transaction {
     
 
  
+	public Transaction() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public Transaction(String id, String tRANSACTION_USER, String g_USER_NAME, String g_RELATIVE, String g_ADDRESS,
 			String g_DISTRICT, String g_STATE, String g_AMOUNT, String cREATED_AT) {
 		super();
