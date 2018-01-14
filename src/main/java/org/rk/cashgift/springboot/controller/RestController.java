@@ -21,7 +21,15 @@ public class RestController {
 
 	@RequestMapping(value = "/getTransaction", method = RequestMethod.GET)
 	public List<Transaction> getAllTransaction() {
-		List<Transaction> list = transactionRep.findAllTransactions();
+		List<Transaction> list = null;
+		try {
+			
+		list = transactionRep.findAllTransactions();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 		// list.forEach(x -> System.out.println(x.getG_STATE()));
 		return list;
 	}
