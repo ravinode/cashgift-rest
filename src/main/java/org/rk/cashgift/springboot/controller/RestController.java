@@ -7,6 +7,7 @@ import javax.sql.DataSource;
 import org.rk.cashgift.springboot.dao.TransactionRepository;
 import org.rk.cashgift.springboot.model.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -33,4 +34,11 @@ public class RestController {
 		// list.forEach(x -> System.out.println(x.getG_STATE()));
 		return list;
 	}
+	
+	
+	@RequestMapping(value = "/postTransaction", method = RequestMethod.POST)
+	public void storeTransaction(@RequestBody Transaction transaction) {
+		System.out.println(transaction.getG_ADDRESS());
+	}
+	
 }

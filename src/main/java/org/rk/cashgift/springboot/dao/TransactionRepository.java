@@ -34,5 +34,25 @@ public class TransactionRepository {
 
 	    }
 
+	 public void insertTransaction(Transaction transaction)
+	 {
+		 String sql = "INSERT INTO ravikeke.CG_TRANSACTION" + 
+		 		"( TRANSACTION_ID," + 
+		 		"TRANSACTION_USER," + 
+		 		"G_USER_NAME," + 
+		 		"G_RELATIVE," + 
+		 		"G_ADDRESS," + 
+		 		"G_DISTRICT," + 
+		 		"G_STATE," + 
+		 		"G_AMOUNT," + 
+		 		"CREATED_AT )" + 
+		 		"VALUES" + 
+		 		"(?,?,?,?,?,?,?,?,?);";
+		 jdbcTemplate.update(sql, new Object[] {
+				 transaction.getId(),transaction.getG_USER_NAME(),transaction.getG_USER_NAME(),transaction.getG_RELATIVE(),transaction.getG_ADDRESS(),
+				 transaction.getG_DISTRICT(),transaction.getG_STATE(),transaction.getG_AMOUNT()
+		 });
+		 
+	 }
 	
 }
