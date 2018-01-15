@@ -44,13 +44,12 @@ public class TransactionRepository {
 		 		"G_ADDRESS," + 
 		 		"G_DISTRICT," + 
 		 		"G_STATE," + 
-		 		"G_AMOUNT," + 
-		 		"CREATED_AT )" + 
+		 		"G_AMOUNT)" + 
 		 		"VALUES" + 
-		 		"(?,?,?,?,?,?,?,?,?);";
+		 		"(?,?,?,?,?,?,?,?);";
 		 jdbcTemplate.update(sql, new Object[] {
-				 transaction.getId(),transaction.getG_USER_NAME(),transaction.getG_USER_NAME(),transaction.getG_RELATIVE(),transaction.getG_ADDRESS(),
-				 transaction.getG_DISTRICT(),transaction.getG_STATE(),transaction.getG_AMOUNT()
+				 transaction.getId(),transaction.getTransactionUser(),transaction.getUserName(),transaction.getRelative(),transaction.getAddress(),
+				 transaction.getDistrict(),transaction.getState(),transaction.getAmount()
 		 });
 		 
 	 }

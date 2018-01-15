@@ -38,7 +38,8 @@ public class RestController {
 	
 	@RequestMapping(value = "/postTransaction", method = RequestMethod.POST)
 	public void storeTransaction(@RequestBody Transaction transaction) {
-		System.out.println(transaction.getG_ADDRESS());
+		System.out.println(transaction.getAddress());
+		transactionRep.insertTransaction(transaction);
 	}
 	
 }
